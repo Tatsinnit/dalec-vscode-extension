@@ -130,7 +130,7 @@ The extension activates when:
 
 - **Shell Injection Prevention**: Always use array-based arguments with `execFile()` or `execFileSync()` from `src/commands/utils/shell.ts`
 - Never concatenate user input into shell commands
-- Follow the security patterns documented in [REFACTORING_ERRORABLE.md](REFACTORING_ERRORABLE.md)
+- Follow the security patterns used in `src/commands/utils/errorable.ts` and `src/commands/utils/shell.ts`
 
 ## Release Process
 
